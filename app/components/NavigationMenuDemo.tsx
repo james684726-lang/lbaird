@@ -107,7 +107,7 @@ const navLinks = [
     label: "Find a Loan Officer",
     icon: UserSearch,
   },
-  { href: "/Our-Branches", label: "Our Branches", icon: BookOpen },
+  // { href: "/Our-Branches", label: "Our Branches", icon: BookOpen },
   { href: "/contact-us", label: "Contact", icon: Phone },
 ];
 
@@ -324,9 +324,9 @@ function NavigationMenuDemo() {
               <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/Find-a-Loan-Officer">Find a Loan Officer</Link>
               </NavigationMenuItem>
-              <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
+              {/* <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/Our-Branches">Our Branches</Link>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
               <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/contact-us">Contact Us</Link>
               </NavigationMenuItem>
@@ -338,7 +338,7 @@ function NavigationMenuDemo() {
             <PhoneCall />
             <h3>866-815-1803 </h3>
           </Link>
-          <Link href="https://app.mloflo.com/sl/:BillyWatkins">
+          <Link href="/Find-a-Loan-Officer">
             <button className="bg-white text-[#006132] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
               Apply Now
             </button>

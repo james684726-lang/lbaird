@@ -84,12 +84,12 @@ export default function AboutPage() {
                 Augusta, Georgia 30904
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact">
+                <Link href="/contact-us">
                   <button className="bg-white text-[#006132] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                     Get Pre-Approved
                   </button>
                 </Link>
-                <a href="tel:7068293294">
+                <a href="tel:+18668151803">
                   <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
                     <Icons.Phone className="w-4 h-4" /> Call Lewis
                   </button>
@@ -132,7 +132,7 @@ export default function AboutPage() {
                 Originally from Augusta, Lewis graduated from the University of Georgia with a degree in Economics. He spent nine years living in Atlanta, where he met his wife, before returning to Augusta to begin his career as a mortgage lender. He and his wife have two sons, Daniel (22) and Shaw (21).
               </p>
               <p className="text-gray-700 leading-relaxed font-medium">
-                If you want a mortgage experience that's professional, personal, and even a little fun, give Lewis a call.
+                If you want a mortgage experience that{`'`}s professional, personal, and even a little fun, give Lewis a call.
               </p>
               <div className="mt-6 flex items-center gap-4">
                 <a href="tel:7068293294" className="text-[#006132] font-medium flex items-center gap-2">
@@ -207,21 +207,22 @@ export default function AboutPage() {
 
         {/* Let's Get You Into Your Dream Home */}
         <section className="mb-16 bg-[#006132] text-white rounded-2xl p-8 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Let's get you into your dream home</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Let{`'`}s get you into your dream home</h2>
           <p className="text-green-200 max-w-2xl mx-auto mb-8">
-            It's simple to get started on your mortgage journey – whether you're just looking to get pre-qualified or are ready to submit an application. Just click the button below or submit a contact form to speak with one of our mortgage experts. We're here to help!
+            It{`'`}s simple to get started on your mortgage journey – whether you{`'`}re just looking to get pre-qualified or are ready to submit an application. Just click the button below or submit a contact form to speak with one of our mortgage experts. We're here to help!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact">
+           
+            <a href="mailto:LBaird@cfmtg.com">
               <button className="bg-white text-[#006132] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                 Get Started Today
               </button>
-            </Link>
-            <a href="mailto:LBaird@cfmtg.com">
+             </a>
+               <Link href="/contact-us">
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
                 <Icons.Mail className="w-4 h-4" /> Contact Lewis
-              </button>
-            </a>
+              </button></Link>
+           
           </div>
         </section>
 

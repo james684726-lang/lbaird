@@ -52,7 +52,7 @@ const loanPrograms = [
   },
   {
     title: "DPA Loans",
-    href: "/loan-programs?program=DPA",
+    href: "/loan-programs?program=dpa",
     description:
       "A Down Payment Assistance (DPA) loan helps cover a portion of the down payment on a home.",
     icon: Building2,
@@ -72,21 +72,21 @@ const loanPrograms = [
   },
   {
     title: "Non-QM",
-    href: "/loan-programs?program=Non-QM",
+    href: "/loan-programs?program=non-qm",
     description:
       "A Non-QM loan, or Non-Qualified Mortgage loan, is a type of mortgage loan that does not meet the standards set by the government-sponsored.",
     icon: Landmark,
   },
   {
     title: "Rehab Loans",
-    href: "/loan-programs?program=Rehab",
+    href: "/loan-programs?program=rehab",
     description:
       "A rehab loan, also known as a renovation loan, is a type of loan used to finance the purchase and renovation of a property",
     icon: BarChart3,
   },
   {
     title: "USDA Loans",
-    href: "/loan-programs?program=USDA",
+    href: "/loan-programs?program=usda",
     description:
       "USDA loans are designed to help low- and moderate-income individuals and families buy homes in rural areas.",
     icon: FileTextIcon,
@@ -94,6 +94,12 @@ const loanPrograms = [
   {
     title: "Adjustable-Rate (ARM) Loans",
     href: "/loan-programs?program=arm",
+    description: "Start with lower rates that adjust over time.",
+    icon: Activity,
+  },
+  {
+    title: "Fixed-Rate (FRM) Loans",
+    href: "/loan-programs?program=fixed-rate",
     description: "Start with lower rates that adjust over time.",
     icon: Activity,
   },
@@ -290,7 +296,7 @@ function NavigationMenuDemo() {
 
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="text-white text-lg font-semibold ">
-                  <Link href="/loan-programs">Loan Programs</Link>
+                  <Link href="">Loan Programs</Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[640px] grid-cols-2 gap-1 p-4 lg:w-[780px] lg:grid-cols-3">
@@ -334,11 +340,11 @@ function NavigationMenuDemo() {
           </NavigationMenu>
         </div>
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
-          <Link href="/schedule" className="flex gap-2 justify-center ">
+          <Link href="tel:+118668151803"  className="flex gap-2 justify-center ">
             <PhoneCall />
             <h3>866-815-1803 </h3>
           </Link>
-          <Link href="/Find-a-Loan-Officer">
+          <Link href="/contact-us" className="flex gap-2 justify-center ">
             <button className="bg-white text-[#006132] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
               Apply Now
             </button>

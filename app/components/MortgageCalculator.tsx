@@ -45,7 +45,8 @@ export default function MortgageCalculator() {
     );
   };
 
-  useEffect(() => {
+  // This function handles the calculation when button is clicked
+  const handleCalculate = () => {
     const loan = Math.max(price - down, 0);
     const pi = calculateMortgage(loan, rate, term);
     const tax = (price * 0.006) / 12;
@@ -58,7 +59,9 @@ export default function MortgageCalculator() {
     
     const total = pi + tax + insurance + hoa + pmi;
     setResult({ pi, tax, insurance, hoa, pmi, total });
-  }, [price, down, rate, term, hoa, isVeteran]);
+  };
+
+  // REMOVED the useEffect - now calculation only happens on button click
 
   return (
     <div className="bg-white py-10 px-4 sm:px-6">
@@ -84,7 +87,7 @@ export default function MortgageCalculator() {
 
         {/* Main Content Split */}
         <div className="flex flex-col lg:flex-row gap-6">
-          
+  
           {/* Inputs Section */}
           <div className="w-full lg:w-2/3 bg-white shadow-md border border-gray-400 rounded-xl p-5 sm:p-8">
             <h3 className="text-lg sm:text-xl font-semibold text-black mb-6">
@@ -165,7 +168,10 @@ export default function MortgageCalculator() {
               Improve the accuracy of your monthly payment estimated by contacting a loan expert.
             </p>
 
-            <button className="bg-green-800 text-white rounded-lg p-3 font-semibold mt-5 w-full transition duration-300 hover:-translate-y-1">
+            <button 
+              onClick={handleCalculate}
+              className="bg-green-800 text-white rounded-lg p-3 font-semibold mt-5 w-full transition duration-300 hover:-translate-y-1 hover:bg-green-700"
+            >
               Calculate
             </button>
           </div>
@@ -199,12 +205,13 @@ export default function MortgageCalculator() {
               ))}
             </div>
 
-            <a href="/contact"><button
-             
-              className="w-full mt-8 bg-white text-black py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-sm"
-            >
-              Quick Contact
-            </button></a>
+            <a href="/contact-us">
+              <button
+                className="w-full mt-8 bg-white text-black py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-sm"
+              >
+                Quick Contact
+              </button>
+            </a>
           </div>
         </div>
 

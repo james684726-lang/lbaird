@@ -217,11 +217,11 @@ function Card({
             </button>
             {isLast ? (
               <Link
-                href="/review"
+                href="/about"
                 onClick={(e) => e.stopPropagation()}
                 className="bg-[#004D22] text-white px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium hover:scale-105 transition-transform"
               >
-                See Reviews <ChevronRight className="w-4 h-4" />
+                About me<ChevronRight className="w-4 h-4" />
               </Link>
             ) : (
               <button

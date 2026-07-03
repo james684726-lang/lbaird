@@ -34,7 +34,7 @@ export const loanPrograms: LoanProgram[] = [
     subtitle: "FHA loans are mortgages insured by the Federal Housing Administration (FHA).",
     description: "FHA loans are a popular option for first-time homebuyers because of their low down payment requirements and more lenient credit and income qualifications.",
     longDescription: "FHA loans are mortgages insured by the Federal Housing Administration (FHA). They are a popular option for first-time homebuyers because of their low down payment requirements and more lenient credit and income qualifications. FHA loans provide a clear path forward with competitive terms and tailored conditions for borrowers who may not qualify for conventional financing.",
-    icon: "HomeIcon",
+    icon: "Home",
     benefits: [
       "FHA loans typically have great interest rates",
       "Less than perfect credit: A FICO score as low as 580 may be accepted for a 3.5% down payment",
@@ -96,7 +96,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "va",
@@ -166,7 +166,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "dpa",
@@ -305,7 +305,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "refinance",
@@ -374,7 +374,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "cash-out-refinance",
@@ -444,7 +444,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "non-qm",
@@ -514,7 +514,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "rehab",
@@ -592,7 +592,7 @@ export const loanPrograms: LoanProgram[] = [
     subtitle: "USDA loans are designed to help low- and moderate-income individuals and families buy homes in rural areas.",
     description: "USDA loans are designed to help low- and moderate-income individuals and families buy homes in rural areas. They are particularly well-suited for first-time homebuyers who have limited savings.",
     longDescription: "USDA loans are designed to help low- and moderate-income individuals and families buy homes in rural areas. They are particularly well-suited for first-time homebuyers who have limited savings or who are unable to secure conventional financing. These government-backed loans offer zero down payment options and competitive rates for eligible borrowers in designated rural areas.",
-    icon: "FileTextIcon",
+    icon: "FileText",
     benefits: [
       "Zero down payment required",
       "Low interest rates",
@@ -724,7 +724,7 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   },
   {
     id: "fixed-rate",
@@ -794,6 +794,6 @@ export const loanPrograms: LoanProgram[] = [
       }
     ],
     ctaText: "Get Your Personalized Rate",
-    ctaLink: "/contact"
+    ctaLink: "/contact-us"
   }
 ];

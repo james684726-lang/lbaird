@@ -108,11 +108,11 @@ const loanPrograms = [
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
   { href: "/about", label: "About", icon: Info },
-  {
-    href: "/Find-a-Loan-Officer",
-    label: "Find a Loan Officer",
-    icon: UserSearch,
-  },
+  // {
+  //   href: "/Find-a-Loan-Officer",
+  //   label: "Find a Loan Officer",
+  //   icon: UserSearch,
+  // },
   // { href: "/Our-Branches", label: "Our Branches", icon: BookOpen },
   { href: "/contact-us", label: "Contact", icon: Phone },
 ];
@@ -265,7 +265,7 @@ function NavigationMenuDemo() {
                   (866) 815-1803{" "}
                 </button>
               </Link>
-              <Link href="/Find-a-Loan-Officer" className="w-full px-4">
+              <Link href="/contact-us" className="w-full px-4">
                 <button className="bg-white text-[#006132] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
                   Apply Online
                 </button>
@@ -327,9 +327,9 @@ function NavigationMenuDemo() {
                   <div className="border-t border-border p-4"></div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
+              {/* <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/Find-a-Loan-Officer">Find a Loan Officer</Link>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
               {/* <NavigationMenuItem className="text-white text-lg font-semibold rounded-xl transform duration-300 transition-all hover:bg-white/10 hover:-translate-y-1 px-6 py-2">
                 <Link href="/Our-Branches">Our Branches</Link>
               </NavigationMenuItem> */}

@@ -62,7 +62,7 @@ const MortgageLandingPage = () => {
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4">
               <Link
-                href="/Find-a-Loan-Officer"
+                href="/avout"
               >
                 {" "}
                 <button className="w-full sm:w-auto flex items-center border-2 border-white/30 justify-center gap-3  px-6 py-4 rounded-xl font-bold transition transform duration-300 hover:-translate-y-1">

@@ -49,7 +49,7 @@ export default function Footer() {
               (866) 815-1803
             </Link>
           </p>
-         
+
           <p className="mb-2 flex items-center gap-2">
             <Image
               src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b81_mail-white.svg"
@@ -63,7 +63,7 @@ export default function Footer() {
               href="mailto:adrian@teamwebbloans.com"
               className="break-all hover:text-gray-300 transition-colors"
             >
-              info@cfmtg.com
+              LBaird@cfmtg.com
             </Link>
           </p>
           <p className="mb-4 flex flex-col items-start gap-2">
@@ -75,19 +75,20 @@ export default function Footer() {
               className="w-5 h-5 flex-shrink-0 mt-0.5"
               unoptimized
             />
-            <Link
-              href="https://maps.google.com/?q=128+Union+Street,+Suite+101,+New+Bedford,+MA+02740"
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=1526+Monte+Sano+Ave+Office+%234+Augusta+GA+30904"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors"
             >
-              www.nmlsconsumeraccess.org <br /> 2655 Camino Del Rio N.
+              1526 Monte Sano Ave.
               <br />
-               Suite 100
-              San Diego, CA 92108
-            </Link>
-            FHA Case Transfer Request:
-            <br />  casetransfer@cfmtg.com
+              Office #4
+              <br />
+              Augusta, Georgia 30904
+            </a>
+            {/* FHA Case Transfer Request: */}
+            {/* <br />  casetransfer@cfmtg.com */}
           </p>
           {/* Social Links Row */}
           <div className="flex gap-3 mb-6">
@@ -107,7 +108,6 @@ export default function Footer() {
                 alt: "Instagram",
                 href: "https://www.instagram.com/thecfmtg/",
               },
-              
             ].map(({ src, alt, href }) => (
               <Link
                 key={alt}

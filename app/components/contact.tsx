@@ -477,14 +477,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
             >
               <button className="">(706) 829-3294 </button>
             </Link>
-            <a
-              href="https://www.nmlsconsumeraccess.org"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-[#006132]"
-            >
-              www.nmlsconsumeraccess.org
-            </a>
+            
           </div>
           <p className="leading-relaxed">
             <strong>Equal Housing Opportunity:</strong> Lewis Baird Mortgage is

@@ -61,9 +61,7 @@ const MortgageLandingPage = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4">
-              <Link
-                href="/avout"
-              >
+              <Link href="/avout">
                 {" "}
                 <button className="w-full sm:w-auto flex items-center border-2 border-white/30 justify-center gap-3  px-6 py-4 rounded-xl font-bold transition transform duration-300 hover:-translate-y-1">
                   Start Application{" "}
@@ -165,7 +163,7 @@ const MortgageLandingPage = () => {
                     <Icon src={icons.linkedin} size={18} />
                   </a>
                   {/* <a
-                    href="/info@cfmtg.com"
+                    href="/LBaird@cfmtg.com"
                     className=" w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.google} size={18} />

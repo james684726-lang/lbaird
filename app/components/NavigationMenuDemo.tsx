@@ -172,7 +172,7 @@ function NavigationMenuDemo() {
               className="lg:hidden bg-white hover:bg-white my-2 rounded-full text-[#006132] h-10 w-10"
             >
               <a
-                href="https://wa.me/118668151803"
+                href="https://wa.me/117068293294"
                 target="_blank"
                 rel="noreferrer"
                 className="flex gap-2 justify-center w-full px-4"
@@ -258,11 +258,11 @@ function NavigationMenuDemo() {
             </nav>
             <div className="lg:hidden flex flex-col w-full items-center gap-3 text-white ">
               <Link
-                href="https://wa.me/118668151803"
+                href="https://wa.me/117068293294"
                 className="flex gap-2 justify-center w-full px-4"
               >
                 <button className="bg-white flex justify-center gap-4 text-[#006132] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
-                  (866) 815-1803{" "}
+                  (706) 829-3294{" "}
                 </button>
               </Link>
               <Link href="/contact-us" className="w-full px-4">
@@ -340,7 +340,7 @@ function NavigationMenuDemo() {
           </NavigationMenu>
         </div>
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
-          <Link href="tel:+118668151803"  className="flex gap-2 justify-center ">
+          <Link href="tel:+117068293294" className="flex gap-2 justify-center ">
             <PhoneCall />
             <h3>866-815-1803 </h3>
           </Link>

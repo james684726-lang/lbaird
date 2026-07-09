@@ -46,7 +46,7 @@ export default function Footer() {
               href="tel:2067958411"
               className="hover:text-gray-300 transition-colors"
             >
-              (866) 815-1803
+              (706) 829-3294
             </Link>
           </p>
 
@@ -88,7 +88,7 @@ export default function Footer() {
               Augusta, Georgia 30904
             </a>
             {/* FHA Case Transfer Request: */}
-            {/* <br />  casetransfer@cfmtg.com */}
+            {/* <br /> LBaird@cfmtg.com */}
           </p>
           {/* Social Links Row */}
           <div className="flex gap-3 mb-6">

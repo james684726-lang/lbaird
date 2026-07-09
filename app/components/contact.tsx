@@ -62,7 +62,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
     );
 
     window.open(
-      `mailto:info@cfmtg.com?subject=${emailSubject}&body=${emailBody}`,
+      `mailto:LBaird@cfmtg.com?subject=${emailSubject}&body=${emailBody}`,
       "_blank",
     );
 
@@ -86,10 +86,10 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
           <p className="text-slate-500 text-sm mb-6">
             If it didn{`'`}t open, please contact us directly at{" "}
             <a
-              href="mailto:info@cfmtg.com"
+              href="mailto:LBaird@cfmtg.com"
               className="text-[#006132] underline font-medium"
             >
-              info@cfmtg.com
+              LBaird@cfmtg.com
             </a>
           </p>
           <Button
@@ -189,7 +189,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#006132] transition">
-                    (866) 815-1803
+                    (706) 829-3294
                   </p>
                   <p className="text-gray-500 text-xs mt-1">
                     Call or Text for a Quick Chat, any time, 7 days a week
@@ -198,7 +198,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
               </a>
 
               <a
-                href="mailto:info@cfmtg.com"
+                href="mailto:LBaird@cfmtg.com"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#006132] shrink-0 group-hover:bg-[#006132] group-hover:text-white transition">
@@ -206,7 +206,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#006132] transition break-all">
-                    info@cfmtg.com
+                    LBaird@cfmtg.com
                   </p>
                   <p className="text-gray-500 text-xs mt-1">
                     Email for Detailed Inquiries
@@ -268,11 +268,11 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
 
               <div className="flex flex-wrap gap-3 mb-6">
                 <a
-                  href="mailto: info@cfmtg.com"
+                  href="mailto: LBaird@cfmtg.com"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Mail className="w-3.5 h-3.5" />
-                  info@cfmtg.com
+                  LBaird@cfmtg.com
                 </a>
 
                 <a
@@ -280,7 +280,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  (866) 815-1803
+                  (706) 829-3294
                 </a>
               </div>
 
@@ -472,10 +472,10 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
             <span>NMLS ID: 173855</span>
             <Link
-              href="https://wa.me/118668151803"
+              href="https://wa.me/117068293294"
               className="flex gap-2 w-full px-4"
             >
-              <button className="">(866) 815-1803 </button>
+              <button className="">(706) 829-3294 </button>
             </Link>
             <a
               href="https://www.nmlsconsumeraccess.org"

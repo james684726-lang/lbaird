@@ -133,7 +133,7 @@ const MortgageLandingPage = () => {
                 }}
               />
 
-              <div className="absolute -bottom-6 sm:bottom-1 right-0 md:right-22 left-0 sm:left-auto mx-auto sm:mx-0 bg-white text-gray-900 p-3 sm:p-4 rounded-2xl shadow-2xl w-[80%] sm:w-60">
+              <div className="absolute -bottom-6 sm:bottom-1 right-0 md:right-22 left-0 sm:left-auto mx-auto sm:mx-0 bg-white text-gray-900 p-3 sm:p-4 rounded-2xl shadow-2xl w-[60%] sm:w-52">
                 <h3 className="text-xl font-bold mb-2">Lewis Baird</h3>
                 <p className="text-gray-600 text-sm mb-1">
                   Senior Loan Officer

@@ -181,7 +181,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
               <h3 className="font-semibold text-lg">Other Ways to Connect</h3>
 
               <a
-                href="tel:866-815-1803"
+                href="tel:+17068293294"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#006132] shrink-0 group-hover:bg-[#006132] group-hover:text-white transition">
@@ -276,7 +276,7 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
                 </a>
 
                 <a
-                  href="tel:866-815-1803"
+                  href="tel:+17068293294"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />

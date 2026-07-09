@@ -342,7 +342,7 @@ function NavigationMenuDemo() {
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
           <Link href="tel:+117068293294" className="flex gap-2 justify-center ">
             <PhoneCall />
-            <h3>866-815-1803 </h3>
+            <h3>706-829-3294 </h3>
           </Link>
           <Link href="/contact-us" className="flex gap-2 justify-center ">
             <button className="bg-white text-[#006132] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">

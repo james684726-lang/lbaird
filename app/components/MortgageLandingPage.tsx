@@ -61,7 +61,7 @@ const MortgageLandingPage = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4">
-              <Link href="/avout">
+              <Link href="/about">
                 {" "}
                 <button className="w-full sm:w-auto flex items-center border-2 border-white/30 justify-center gap-3  px-6 py-4 rounded-xl font-bold transition transform duration-300 hover:-translate-y-1">
                   Start Application{" "}
@@ -138,7 +138,7 @@ const MortgageLandingPage = () => {
                 <p className="text-gray-600 text-sm mb-1">
                   Senior Loan Officer
                 </p>
-                <p className="text-gray-500 text-xs mb-1">NMLS ID: 173855</p>
+                <p className="text-gray-500 text-xs mb-1">NMLS ID: 777274</p>
                 <div className="flex items-center gap-3 w-full">
                   <a
                     href="https://www.facebook.com/thecfmtg/"

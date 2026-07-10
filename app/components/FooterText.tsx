@@ -15,12 +15,11 @@ const FooterText = () => {
           fits the need of each client.
         </p>
 
-        <p className="mt-6">
-          For Licensing Information go to:
-        </p>
+        <p className="mt-6">For Licensing Information go to:</p>
 
         <p className="mt-6">
-          © {currentYear} Cornerstone First Mortgage, LLC |  All Rights Reserved. NMLS ID #173855 Equal | Opportunity Lender.
+          © {currentYear} Cornerstone First Mortgage, LLC | All Rights Reserved.
+          NMLS ID 777274 Equal | Opportunity Lender.
         </p>
       </div>
 

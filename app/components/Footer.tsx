@@ -50,7 +50,7 @@ export default function Footer() {
             </Link>
           </p>
 
-          <p className="mb-2 flex items-center gap-2">
+          <p className="mb-2 flex flex-row  items-start  gap-2">
             <Image
               src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b81_mail-white.svg"
               alt="Email"
@@ -66,7 +66,7 @@ export default function Footer() {
               LBaird@cfmtg.com
             </Link>
           </p>
-          <p className="mb-4 flex flex-col items-start gap-2">
+          <p className="mb-4 flex flex-row justify-center items-start gap-2">
             <Image
               src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b96_location-on-white.svg"
               alt="Location"
@@ -81,9 +81,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors"
             >
-              1526 Monte Sano Ave.
-              <br />
-              Office #4
+              1526 Monte Sano Ave. Office #4
+
               <br />
               Augusta, Georgia 30904
             </a>

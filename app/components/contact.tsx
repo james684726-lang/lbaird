@@ -470,14 +470,13 @@ This inquiry was sent from the Lewis Baird Mortgage website.`,
       <footer className="bg-white border-t border-gray-200 py-12 text-xs text-gray-500 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-4">
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
-            <span>NMLS ID: 173855</span>
+            <span>NMLS ID: 777274</span>
             <Link
               href="https://wa.me/117068293294"
               className="flex gap-2 w-full px-4"
             >
               <button className="">(706) 829-3294 </button>
             </Link>
-            
           </div>
           <p className="leading-relaxed">
             <strong>Equal Housing Opportunity:</strong> Lewis Baird Mortgage is

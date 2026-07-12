@@ -61,7 +61,7 @@ export default function Footer() {
             />
             <Link
               href="mailto:adrian@teamwebbloans.com"
-              className="break-all hover:text-gray-300 transition-colors"
+              className="break-all  hover:text-gray-300 transition-colors"
             >
               LBaird@cfmtg.com
             </Link>
@@ -90,7 +90,7 @@ export default function Footer() {
             {/* <br /> LBaird@cfmtg.com */}
           </p>
           {/* Social Links Row */}
-          <div className="flex gap-3 mb-6">
+          <div className="flex gap-3 mb-6 ">
             {[
               {
                 src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62afd_ri_facebook-fill-white.svg",
@@ -113,7 +113,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-600 flex items-center justify-center flex-shrink-0 hover:bg-gray-500 transition-colors"
+                className="w-10 h-10 rounded-full  bg-gray-600 flex items-center justify-center flex-shrink-0 hover:bg-gray-500 transition-colors"
               >
                 <Image
                   src={src}

@@ -15,19 +15,19 @@ const Loan: React.FC = () => {
       id: "facebook",
       src: "https://www.facebook.com/thecfmtg/",
       alt: "Facebook",
-      url: "https://facebook.com/BillyWatkinsMortgage",
+      url: "https://www.facebook.com/thecfmtg/",
     },
     {
       id: "instagram",
       src: "https://www.instagram.com/thecfmtg/",
       alt: "Instagram",
-      url: "https://instagram.com/BillyWatkinsMortgage",
+      url: "https://www.instagram.com/thecfmtg/e",
     },
     {
       id: "linkedin",
       src: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
       alt: "LinkedIn",
-      url: "https://linkedin.com/in/BillyWatkinsMortgage",
+      url: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
     },
   ];
 
@@ -59,7 +59,7 @@ const Loan: React.FC = () => {
               className="mt-8 sm:mt-10 inline-flex items-center gap-3 bg-[#006132] hover:bg-[#006132]/80 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition mx-auto lg:mx-0"
               type="button"
             >
-              Find a Loan Officer
+              About me 
             </button>
           </Link>
         </div>
